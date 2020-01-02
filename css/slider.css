@@ -1,0 +1,63 @@
+
+body
+{
+    background-image: url(../images/concrete_seamless.png);
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1
+{
+    color: #015770;
+}
+
+
+
+/*BARRE D'OUTILS*/
+header a
+{
+    text-decoration: none;
+    color: #61b1c1;
+}
+
+nav li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul
+{
+    text-align: center;
+}
+
+
+.hide
+{
+    display:none;
+}
+
+/*SLIDER*/
+figure img
+{
+    border: 10px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#slider
+{
+    -webkit-backface-visibility: hidden;
+    transform: rotate(-3deg);
+    transform-origin: 50% 50%;
+
+}
+
+figcaption
+{
+    color: #2b8782;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
